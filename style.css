@@ -1,0 +1,82 @@
+:root {
+    --backcol: #ea1d2b;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+html {
+    display: table;
+    margin: auto;
+}
+
+body {
+    display: table-cell;
+
+    background-color: #f4ecd6;
+}
+
+.palette {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%l
+}
+
+
+.color-picker {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    padding: 50px 50px;
+    border-radius: 25px;
+    margin: 20px;
+    width: 100px;
+
+}
+
+.picktext {
+    font-size: 25px;
+    color: black;
+    font-weight: 700;
+    padding: 0px 10px;
+    text-align: center;
+    font-family: 'Fredoka One', cursive;
+    margin-bottom: 100px;
+    margin-top: 20px;
+
+}
+
+.picker {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    overflow: hidden;
+    position: relative;
+
+}
+
+.inputcolor {
+    width: 150px;
+    height: 150px;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+}
+
+.color-code {
+    width: 100px;
+    padding: 10px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.color-code:hover {
+    cursor: pointer;
+    transform: scale(1.2);
+    transition-duration: 150ms;
+}
